@@ -3,7 +3,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-ruby "2.4.0"
+ruby "2.6.5"
 
 gem "middleman"
 gem 'middleman-autoprefixer'
