@@ -1,0 +1,15 @@
+.main-visual
+  .main-visual__container
+    %h1.main-visual__logo-set
+      .main-visual__kamon= image_tag('icon-kamon.svg', class: 'main-visual__kamon-image')
+      .main-visual__logo
+        = image_tag('logo.svg', class: 'main-visual__logo-image', alt: '大江戸Ruby会議08')
+    .main-visual__information
+      %p.main-visual__date= data.oedo08.information.date
+      %p.main-visual__venue
+        於:
+        = data.oedo08.information.venue.city
+        = link_to data.oedo08.information.venue.name, data.oedo08.information.venue.url, target: 'blank'
+      %p.main-visual__venue-address= data.oedo08.information.venue.address
+      = link_to 'Google Map', data.oedo08.information.venue.map_url, target: '_blank', class: 'main-visual__map-link'
+

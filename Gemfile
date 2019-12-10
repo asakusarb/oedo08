@@ -9,7 +9,6 @@ gem "middleman"
 gem 'middleman-autoprefixer'
 gem 'middleman-sprockets'
 gem 'middleman4-sprockets3-sassc', '~> 0.0.4'
-gem 'oulu'
 
 # Live-reloading plugin
 gem "middleman-livereload"

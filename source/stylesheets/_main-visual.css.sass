@@ -1,0 +1,55 @@
+// .main-visual
+
+.main-visual
+  text-align: center
+  position: relative
+
+.main-visual__container
+  margin: 0 10px
+
+.main-visual__logo-set
+  margin-top: 50px
+
+  +mq
+    margin-top: 20px
+
+.main-visual__kamon-image
+  width: 110px
+  +mq
+    width: 90px
+
+.main-visual__logo-image
+  width: 330px
+  +mq
+    width: 280px
+
+.main-visual__venue, .main-visual__date
+  font-size: 20px
+  font-weight: bold
+  +mq
+    font-size: 16px
+
+.main-visual__date
+  margin-bottom: 10px
+
+.main-visual__venue
+  margin-bottom: 5px
+
+.main-visual__venue-address
+  font-size: 14px
+  margin-bottom: 8px
+
+.main-visual__map-link
+  display: inline-block
+  text-decoration: none
+  font-size: 16px
+  font-weight: bold
+  height: 30px
+  padding-left: 25px
+  background-image: image_url('icon-map.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: 18px
+
+  &:hover
+    text-decoration: underline
