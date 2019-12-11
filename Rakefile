@@ -1,5 +1,7 @@
 require 'middleman-gh-pages'
 
+ENV['BRANCH_NAME'] = 'master'
+
 namespace :assets do
   task :precompile => :build
 end
