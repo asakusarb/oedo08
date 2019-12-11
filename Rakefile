@@ -1,3 +1,5 @@
+require 'middleman-gh-pages'
+
 namespace :assets do
   task :precompile => :build
 end
