@@ -1,0 +1,22 @@
+{
+	"name": "大江戸Ruby会議08",
+	"short_name": "oedo08",
+	"description": "大江戸Ruby会議08・2020年02月11日(火・祝) 浅草・雷5656会館 5F・6F ときわホール",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "any",
+	"background_color": "#e1c483",
+	"theme_color": "#ce5a3a",
+    "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
