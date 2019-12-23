@@ -8,11 +8,18 @@
   margin: 0 10px
 
 .main-visual__logo-set
+  animation: fadein 1.5s linear
   margin-top: 50px
   margin-bottom: 0
 
   +mq
     margin-top: 20px
+
+@keyframes fadein
+  0%
+    opacity: 0
+  100%
+    opacity: 1
 
 .main-visual__kamon-image
   width: 100px
