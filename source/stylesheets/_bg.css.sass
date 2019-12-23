@@ -1,0 +1,61 @@
+.bg
+  width: 100%
+  height: 100%
+  overflow: hidden
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 0
+  animation: fadein 1s linear
+
+.bg__raiko
+  $size: 500px
+  width: $size
+  height: $size
+  background-image: image_url('illust-raiko.svg')
+  background-size: $size
+  position: absolute
+  animation: raiko 60s linear infinite
+
+  &.is-left
+    left: -150px
+    top: -150px
+
+  &.is-right
+    right: -150px
+    bottom: -150px
+
+  +mq-bg
+    $size: 400px
+    width: $size
+    height: $size
+    background-size: $size
+    &.is-left
+      left: -200px
+
+    &.is-right
+      right: -200px
+
+  +mq
+    display: none
+
+.bg__cloud
+  $width: 92px
+  $height: 42px
+  width: $width
+  height: $height
+  background-image: image_url('illust-cloud.svg')
+  background-size: $width
+  position: absolute
+
+  &.is-1, &.is-6
+    animation: cloud 25s linear infinite
+  &.is-2, &.is-8
+    animation: cloud 40s linear infinite
+  &.is-3, &.is-5
+    animation: cloud 15s linear infinite
+  &.is-4, &.is-7
+    animation: cloud 30s linear infinite
+
+  +mq-bg
+    display: none

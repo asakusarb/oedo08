@@ -6,12 +6,25 @@ $link-color: #000000
 $line-color: #000000
 $oedo-red: #ce5a3a
 $oedo-yellow: #e7c63f
+$oedo-thnder-yellow: #dd8c1c
 $oedo-green: #a0c49e
+$hover-color: darken($oedo-red, 10)
 
 // size
 
 $mq-width: 767px
+$mq-bg: 1050px
 
 // fonts
 
 $main-font: '游ゴシック体', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif
+$num-font: 'Odibee Sans', cursive
+
+@font-face
+  font-family: 'kanteiryu-local'
+  src: font-url('/images/A-OTF-KanteiryuStd-Ultra.otf')
+
+$font-kanteiryu: 勘亭流, "Kanteiryu"
+// ↓ローカルフォントテスト用（本番デプロイ時にコメントアウト）
+$font-kanteiryu: 'kanteiryu-local'
+
