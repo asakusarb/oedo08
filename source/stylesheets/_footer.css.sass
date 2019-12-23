@@ -1,22 +1,50 @@
 // .footer
 
 .footer
-  margin-top: 50px
-  margin-bottom: 30px
+  margin: 50px 30px 30px 30px
   display: flex
-  justify-content: center
+  position: relative
+  z-index: 2
 
 .footer__organizer
   font-size: 20px
-  font-weight: bold
   margin-right: 30px
+  position: relative
 
   +mq
     font-size: 14px
 
+  &:before
+    $width: 72px
+    $height: 128px
+    content: ""
+    display: block
+    width: $width
+    height: $height
+    background-image: image-url('illust-thunderbolt-red.svg')
+    background-size: $width
+    background-repeat: no-repeat
+    position: absolute
+    top: -50px
+    left: 60px
+
+
+.footer__organizer-name
+  +num-font
+  font-size: 35px
+  letter-spacing: 2px
+  position: relative
+  top: 2px
+  a
+    text-decoration: none
+
+    &:hover
+      color: $hover-color
+
 .footer__twitter
-  font-size: 20px
-  font-weight: bold
+  +num-font
+  font-size: 30px
+  letter-spacing: 2px
   display: inline-block
   height: 30px
   padding-left: 35px
@@ -24,6 +52,7 @@
   background-repeat: no-repeat
   background-position: left
   background-size: 28px
+  text-decoration: none
 
   +mq
     height: 20px

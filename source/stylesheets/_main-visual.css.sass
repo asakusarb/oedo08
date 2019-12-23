@@ -9,19 +9,19 @@
 
 .main-visual__logo-set
   margin-top: 50px
+  margin-bottom: 0
 
   +mq
     margin-top: 20px
 
 .main-visual__kamon-image
-  width: 110px
+  width: 100px
   +mq
     width: 90px
 
 .main-visual__logo-image
-  width: 330px
   +mq
-    width: 280px
+    max-width: 280px
 
 .main-visual__venue, .main-visual__date
   font-size: 20px
@@ -30,7 +30,7 @@
     font-size: 16px
 
 .main-visual__date
-  margin-bottom: 10px
+  margin-bottom: 0
 
 .main-visual__venue
   margin-bottom: 5px
@@ -44,13 +44,10 @@
   display: inline-block
   text-decoration: none
   font-size: 20px
-  font-weight: bold
+  letter-spacing: 1px
   height: 30px
   padding-left: 20px
   background-image: image_url('icon-map.svg')
   background-repeat: no-repeat
   background-position: 0 0
   background-size: 16px
-
-  &:hover
-    text-decoration: underline

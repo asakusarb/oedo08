@@ -1,0 +1,68 @@
+.bg
+  width: 100%
+  height: 100%
+  overflow: hidden
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 0
+
+.bg__raiko
+  $size: 500px
+  width: $size
+  height: $size
+  background-image: image_url('illust-raiko.svg')
+  background-size: $size
+  position: absolute
+  animation: raiko 25s linear infinite
+
+  &.is-left
+    left: -150px
+    top: -150px
+
+  &.is-right
+    right: -150px
+    bottom: -150px
+
+@keyframes raiko
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+.bg__cloud
+  $width: 92px
+  $height: 42px
+  width: $width
+  height: $height
+  background-image: image_url('illust-cloud.svg')
+  background-size: $width
+  position: absolute
+
+  &.is-1, &.is-6
+    animation: cloud 25s linear infinite
+  &.is-2, &.is-8
+    animation: cloud 40s linear infinite
+  &.is-3, &.is-5
+    animation: cloud 15s linear infinite
+  &.is-4, &.is-7
+    animation: cloud 30s linear infinite
+
+  +mq
+    display: none
+
+  @keyframes cloud
+    0%
+      transform: translateX(0), scale(1)
+    1%
+      transform: scale(1.1)
+    2%
+      transform: scale(1)
+    3%
+      transform: scale(1.1)
+    4%
+      transform: scale(1)
+    50%
+      transform: translateX(100px)
+    100%
+      transform: translateX(0), scale(1)
