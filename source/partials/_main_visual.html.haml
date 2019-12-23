@@ -3,7 +3,7 @@
     %h1.main-visual__logo-set
       .main-visual__kamon= image_tag('icon-kamon.svg', class: 'main-visual__kamon-image')
       .main-visual__logo
-        = image_tag('logo.svg', class: 'main-visual__logo-image', alt: '大江戸Ruby会議08')
+        = partial('partials/logo')
     .main-visual__information
       %p.main-visual__date= data.oedo08.information.date
       %p.main-visual__venue

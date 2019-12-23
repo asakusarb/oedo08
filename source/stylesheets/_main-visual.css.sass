@@ -8,20 +8,14 @@
   margin: 0 10px
 
 .main-visual__logo-set
-  animation: fadein 1.5s linear
   margin-top: 50px
   margin-bottom: 0
 
   +mq
     margin-top: 20px
 
-@keyframes fadein
-  0%
-    opacity: 0
-  100%
-    opacity: 1
-
 .main-visual__kamon-image
+  animation: logo-letter 0.3s ease-in
   width: 100px
   +mq
     width: 90px
@@ -58,3 +52,15 @@
   background-repeat: no-repeat
   background-position: 0 0
   background-size: 16px
+
+.main-visual__logo-thunderbolt-yellow
+  animation: thunder 4s linear infinite
+  animation-delay: 0.5s
+
+.main-visual__logo-thunderbolt-red
+  animation: thunder 4s linear infinite
+  animation-delay: 1s
+
+.main-visual__logo-letter-1
+  animation: logo-letter 0.3s ease-in
+
