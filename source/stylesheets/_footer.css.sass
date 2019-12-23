@@ -6,13 +6,13 @@
   position: relative
   z-index: 2
 
+  +mq
+    justify-content: center
+
 .footer__organizer
   font-size: 20px
   margin-right: 30px
   position: relative
-
-  +mq
-    font-size: 14px
 
   &:before
     $width: 72px
@@ -28,6 +28,16 @@
     top: -50px
     left: 60px
 
+  +mq
+    font-size: 14px
+
+    &:before
+      $width: 36px
+      $height: 64px
+      width: $width
+      height: $height
+      background-size: $width
+      top: -25px
 
 .footer__organizer-name
   +num-font
@@ -40,6 +50,10 @@
 
     &:hover
       color: $hover-color
+
+  +mq
+    font-size: 18px
+    top: 0
 
 .footer__twitter
   +num-font
@@ -57,5 +71,5 @@
   +mq
     height: 20px
     padding-left: 24px
-    font-size: 14px
+    font-size: 18px
     background-size: 20px

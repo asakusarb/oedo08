@@ -6,7 +6,6 @@ $ ->
 
     cloudWidth = 92 #CSS側で指定
     cloudHeight = 42 #CSS側で指定
-    footerHeight = 50
     logoHeight = windowHeight - 430
 
 
@@ -38,7 +37,10 @@ $ ->
   initLogo= ->
     windowHeight = $(window).height()
     logoHeight = windowHeight - 430
-    $('.main-visual__logo-image').css({'height': logoHeight;})
+    if logoHeight > 300
+      $('.main-visual__logo-image').css({'height': logoHeight;})
+    else
+      $('.main-visual__logo-image').css({'height': '300px';})
 
   initLogo()
   initBg()

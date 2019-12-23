@@ -4,16 +4,44 @@
   100%
     opacity: 1
 
+@keyframes raiko
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
 @keyframes thunder
   0%
+    fill: $oedo-thnder-yellow
     transform: scale(1)
   1%
+    fill: white
     transform: scale(1.05)
   2%
+    fill: $oedo-thnder-yellow
     transform: scale(1)
   3%
+    fill: $oedo-thnder-yellow
     transform: scale(1.05)
   4%
+    fill: $oedo-thnder-yellow
+    transform: scale(1)
+
+@keyframes thunder-red
+  0%
+    fill: $oedo-red
+    transform: scale(1)
+  1%
+    fill: white
+    transform: scale(1.05)
+  2%
+    fill: $oedo-red
+    transform: scale(1)
+  3%
+    fill: white
+    transform: scale(1.05)
+  4%
+    fill: $oedo-red
     transform: scale(1)
 
 @keyframes cloud

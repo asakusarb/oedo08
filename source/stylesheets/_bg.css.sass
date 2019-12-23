@@ -25,11 +25,19 @@
     right: -150px
     bottom: -150px
 
-@keyframes raiko
-  0%
-    transform: rotate(0deg)
-  100%
-    transform: rotate(360deg)
+  +mq-bg
+    $size: 400px
+    width: $size
+    height: $size
+    background-size: $size
+    &.is-left
+      left: -200px
+
+    &.is-right
+      right: -200px
+
+  +mq
+    display: none
 
 .bg__cloud
   $width: 92px
@@ -49,6 +57,5 @@
   &.is-4, &.is-7
     animation: cloud 30s linear infinite
 
-  +mq
+  +mq-bg
     display: none
-

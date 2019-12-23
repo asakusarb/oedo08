@@ -21,6 +21,7 @@
     width: 90px
 
 .main-visual__logo-image
+  min-width: 300px
   +mq
     max-width: 280px
 
@@ -55,12 +56,16 @@
 
 .main-visual__logo-thunderbolt-yellow
   animation: thunder 4s linear infinite
-  animation-delay: 0.5s
+  animation-delay: 0.3s
 
 .main-visual__logo-thunderbolt-red
-  animation: thunder 4s linear infinite
+  animation: thunder-red 4s linear infinite
   animation-delay: 1s
 
 .main-visual__logo-letter-1
   animation: logo-letter 0.3s ease-in
 
+.main-visual__logo-08
+  opacity: 0
+  animation: logo-letter 0.3s ease-in both
+  animation-delay: 0.3s
