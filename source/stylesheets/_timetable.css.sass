@@ -11,8 +11,11 @@
   flex-wrap: wrap
   background-color: black
 
+  +mq
+    flex-direction: column
+
 .timetable__avatar
-  $size: 120px
+  $size: 110px
   width: $size
   height: $size
 
@@ -20,6 +23,7 @@
   border: 10px black solid
   border-right: none
   height: 270px
+  box-sizing: border-box
   position: relative
 
   &.is-red
@@ -58,22 +62,51 @@
       top: 100px
       right: -88px
 
+  +mq
+    height: auto
+    border: 8px solid black
+    border-bottom: 0
+
+    &:first-child, &:last-child
+      &:after
+        display: none
+    &:first-child
+      border-left: 8px solid black
+    &:last-child
+      border-right: 8px solid black
+      border-bottom: 8px solid black
+    &.is-yellow
+      border-right: 8px solid black
+
 .timetable__time
   +num-font
   font-size: 14px
-  padding: 10px 3px
+  padding: 10px 2px
   border-bottom: 5px black solid
   height: 40px
   box-sizing: border-box
+
+  +mq
+    height: auto
+    padding: 5px 10px
+    border-bottom: 2px black solid
 
 .timetable__content
   display: flex
   min-width: 70px
   box-sizing: border-box
 
+  +mq
+    flex-direction: column
+    max-width: auto
+
 .timetable__name
-  height: 230px
+  height: 210px
   min-width: 70px
+
+  +mq
+    height: auto
+    min-width: auto
 
 .timetable__name-text
   +kanteiryu
@@ -81,12 +114,18 @@
   writing-mode: vertical-rl
   vertical-align: middle
   text-align: center
-  font-size: 22px
+  font-size: 20px
   height: 100%
   padding: 5px 25px 5px 20px
   box-sizing: border-box
   min-width: 70px
   line-height: 1
+
+  +mq
+    writing-mode: horizontal-tb
+    min-width: auto
+    padding: 10px
+    font-size: 18px
 
   &.is-long
     font-size: 16px
@@ -96,14 +135,26 @@
   padding: 0
   display: flex
 
+  +mq
+    flex-direction: column
+
 .timetable__speaker
   border-left: 5px black solid
   box-sizing: border-box
-  width: 164px
+  width: 152px
+
+  +mq
+    width: 100%
+    display: flex
+    border-top: 5px solid black
 
 .timetable__speaker-header
   display: flex
   border-bottom: 3px black solid
+
+  +mq
+    border-bottom: 0
+    border-right: 3px solid black
 
 .timetable__speaker-name
   background-color: white
@@ -112,8 +163,8 @@
   border-top: 0
   border-right: 0
   box-sizing: border-box
-  height: 120px
-  width: 42px
+  height: 110px
+  width: 38px
   position: relative
   padding-left: 9px
 
@@ -123,8 +174,8 @@
     display: block
     top: 2px
     left: 2px
-    height: 114px
-    width: 30px
+    height: 104px
+    width: 28px
     border: 1px black solid
 
 .timetable__speaker-name-text
@@ -133,24 +184,26 @@
   writing-mode: vertical-rl
   vertical-align: middle
   text-align: center
-  font-size: 18px
+  font-size: 16px
   box-sizing: border-box
-  height: 110px
+  height: 100px
   line-height: 1
   padding-top: 8px
   position: relative
 
   &.is-long
-    font-size: 11px
-    left: 5px
+    font-size: 10px
+    left: 3px
 
 .timetable__speaker-content
   padding: 5px
 
 .timetable__speaker-id
   +num-font
-  font-size: 20px
+  font-size: 18px
+  font-weight: normal
   letter-spacing: 1px
+  margin-top: 3px
   margin-bottom: 7px
 
   a
@@ -162,4 +215,5 @@
 
 .timetable__presentation-title
   font-weight: bold
-  font-size: 14px
+  font-size: 13px
+  line-height: 1.4
