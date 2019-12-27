@@ -1,7 +1,7 @@
 .timetable
   %h2 TIMETABLE
   %ul.timetable__table
-    - data.oedo08.timetable.events.each do |event|
+    - data.timetable.events.each do |event|
       %li.timetable__event{ class: "is-#{event.color}" }
         .timetable__time
           = event.begin

@@ -1,0 +1,20 @@
+.party
+  %h2 AFTER PARTY
+  .party__content
+    .party__start-at
+      開始時間：
+      = data.information.party.start_at
+    .party__venue
+      会場：
+      = link_to data.information.party.venue, data.information.party.url, target: '_blank'
+    .party__address
+      = data.information.party.address
+    .party__map
+      = link_to 'Google Map', data.information.party.map_url, target: '_blank', class: 'party__map-link'
+    .party__registration
+      = link_to data.information.party.registration_url, target: '_blank', class: 'party__registration-button' do
+        参加登録
+        %span.small
+          = data.information.party.fee
+          円前払い
+
