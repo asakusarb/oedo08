@@ -1,18 +1,20 @@
 // .footer
 
 .footer
-  margin: 50px 30px 30px 30px
+  margin: 100px 30px 30px 30px
   display: flex
   position: relative
   z-index: 2
 
   +mq
+    flex-direction: column
     justify-content: center
 
-.footer__organizer
+.footer__organizer-info
   font-size: 20px
   margin-right: 30px
   position: relative
+  display: flex
 
   &:before
     $width: 72px
@@ -30,6 +32,9 @@
 
   +mq
     font-size: 14px
+    justify-content: center
+    margin-right: 0
+    margin-bottom: 30px
 
     &:before
       $width: 36px
@@ -45,6 +50,7 @@
   letter-spacing: 2px
   position: relative
   top: 2px
+  margin-right: 30px
   a
     text-decoration: none
 
@@ -52,10 +58,21 @@
       color: $hover-color
 
   +mq
-    font-size: 18px
+    font-size: 20px
+    letter-spacing: 1px
     top: 0
 
 .footer__twitter
+  padding-right: 20px
+  border-right: 1px solid black
+  margin-right: 30px
+
+  +mq
+    border-right: 0
+    padding-right: 0
+    margin-right: 0
+
+.footer__twitter-link
   +num-font
   font-size: 30px
   letter-spacing: 2px
@@ -67,9 +84,90 @@
   background-position: left
   background-size: 28px
   text-decoration: none
+  position: relative
+  top: 4px
 
   +mq
     height: 20px
     padding-left: 24px
     font-size: 18px
+    letter-spacing: 1px
     background-size: 20px
+    top: 0
+
+.footer__spacer
+  flex-grow: 5
+  $size: 60px
+  background-image: image_url('logo-spacer.svg')
+  background-repeat: repeat-x
+  background-position: 0 6px
+  background-size: $size
+
+  +mq
+    display: none
+
+.footer__design-sponsor
+  display: flex
+  align-items: center
+  margin-left: 30px
+  border-left: 1px solid black
+  padding-left: 20px
+  padding-right: 110px
+  position: relative
+
+  +mq
+    padding-left: 0
+    padding-right: 0
+    margin-left: 0
+    border-left: 0
+    justify-content: center
+
+.footer__design-sponsor-label
+  +num-font
+  font-size: 15px
+  letter-spacing: 1px
+  margin-right: 5px
+
+  +mq
+    font-size: 11px
+
+.footer__design-sponsor-logo
+  width: 100px
+
+  +mq
+    width: 70px
+
+.footer__tori
+  $size: 120px
+  position: absolute
+  top: -60px
+  right: -10px
+  width: $size
+  z-index: 2
+
+  &:before
+    content: ''
+    $width: 60px
+    $height: 107px
+    display: block
+    width: $width
+    height: $height
+    background-image: image_url('illust-thunderbolt-yellow.svg')
+    background-size: $width
+    background-repeat: no-repeat
+    position: absolute
+    top: -50px
+    right: -20px
+    z-index: -1
+
+  +mq
+    display: none
+
+.footer__tori-image
+  width: 120px
+  transition-duration: 0.3s
+
+.footer__tori-link
+  &:hover
+    .footer__tori-image
+      transform: scale(1.05)
