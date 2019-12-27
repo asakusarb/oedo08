@@ -78,7 +78,7 @@ events:
 - color: red
   begin: '14:15'
   end: '15:00'
-  name: フルタイム<br>コミッター大戦
+  name: フルタイムコミッター大戦
   speakers:
   - id: n0kada
     name: 中田伸悦
