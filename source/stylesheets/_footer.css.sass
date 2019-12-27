@@ -6,15 +6,28 @@
   position: relative
   z-index: 2
 
-  +mq
+  +mq-bg
     flex-direction: column
     justify-content: center
 
 .footer__organizer-info
   font-size: 20px
   margin-right: 30px
-  position: relative
   display: flex
+  padding-right: 20px
+  border-right: 1px solid black
+  margin-right: 30px
+
+  +mq-bg
+    font-size: 14px
+    justify-content: center
+    margin-bottom: 30px
+    border-right: 0
+    padding-right: 0
+    margin-right: 0
+
+.footer__organizer
+  position: relative
 
   &:before
     $width: 72px
@@ -30,12 +43,7 @@
     top: -50px
     left: 60px
 
-  +mq
-    font-size: 14px
-    justify-content: center
-    margin-right: 0
-    margin-bottom: 30px
-
+  +mq-bg
     &:before
       $width: 36px
       $height: 64px
@@ -57,20 +65,12 @@
     &:hover
       color: $hover-color
 
-  +mq
+  +mq-bg
     font-size: 20px
     letter-spacing: 1px
     top: 0
 
 .footer__twitter
-  padding-right: 20px
-  border-right: 1px solid black
-  margin-right: 30px
-
-  +mq
-    border-right: 0
-    padding-right: 0
-    margin-right: 0
 
 .footer__twitter-link
   +num-font
@@ -87,7 +87,7 @@
   position: relative
   top: 4px
 
-  +mq
+  +mq-bg
     height: 20px
     padding-left: 24px
     font-size: 18px
@@ -103,7 +103,7 @@
   background-position: 0 6px
   background-size: $size
 
-  +mq
+  +mq-bg
     display: none
 
 .footer__design-sponsor
@@ -115,7 +115,7 @@
   padding-right: 110px
   position: relative
 
-  +mq
+  +mq-bg
     padding-left: 0
     padding-right: 0
     margin-left: 0
@@ -128,13 +128,13 @@
   letter-spacing: 1px
   margin-right: 5px
 
-  +mq
+  +mq-bg
     font-size: 11px
 
 .footer__design-sponsor-logo
   width: 100px
 
-  +mq
+  +mq-bg
     width: 70px
 
 .footer__tori
@@ -160,7 +160,7 @@
     right: -20px
     z-index: -1
 
-  +mq
+  +mq-bg
     display: none
 
 .footer__tori-image
