@@ -36,7 +36,7 @@ $ ->
 
   initLogo= ->
     windowHeight = $(window).height()
-    logoHeight = windowHeight - 520
+    logoHeight = windowHeight - 480
     if logoHeight > 300
       $('.main-visual__logo-image').css({'height': logoHeight;})
     else
