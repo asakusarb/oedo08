@@ -13,4 +13,6 @@
           = data.oedo08.information.venue.name
       %p.main-visual__venue-address= data.oedo08.information.venue.address
       = link_to 'Google Map', data.oedo08.information.venue.map_url, target: '_blank', class: 'main-visual__map-link'
-
+    .main-visual__registration
+      = link_to data.oedo08.information.registration.url, target: '_blank', class: 'main-visual__registration-button' do
+        参加チケット購入
