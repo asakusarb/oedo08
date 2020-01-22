@@ -1,0 +1,55 @@
+// .party
+
+.party
+  margin-bottom: 50px
+
+.party__content
+  width: 600px
+  margin: 0 auto
+  text-align: center
+  position: relative
+
+  &:before, &:after
+    content: ''
+    display: block
+    $width: 92px
+    $height: 42px
+    width: $width
+    height: $height
+    +cloud
+    position: absolute
+    top: 70px
+
+  &:before
+    left: 0
+
+  &:after
+    right: 0
+
+  +mq
+    width: 100%
+    &:before, &:after
+      display: none
+
+.party__start-at
+  font-size: 16px
+  font-weight: bold
+  margin-bottom: 10px
+
+.party__venue
+  font-size: 24px
+  font-weight: bold
+  margin-bottom: 10px
+
+.party__address
+  font-size: 14px
+  margin-bottom: 10px
+
+.party__map
+  margin-bottom: 30px
+
+.party__map-link
+  +map-link
+
+.party__registration-button
+  +oedo-button

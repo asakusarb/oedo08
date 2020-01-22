@@ -5,14 +5,14 @@
       .main-visual__logo
         = partial('partials/logo')
     .main-visual__information
-      %p.main-visual__date= data.oedo08.information.date
+      %p.main-visual__date= data.information.date
       %p.main-visual__venue
         於:
-        = link_to data.oedo08.information.venue.url, target: 'blank' do
-          = data.oedo08.information.venue.city
-          = data.oedo08.information.venue.name
-      %p.main-visual__venue-address= data.oedo08.information.venue.address
-      = link_to 'Google Map', data.oedo08.information.venue.map_url, target: '_blank', class: 'main-visual__map-link'
+        = link_to data.information.venue.url, target: 'blank' do
+          = data.information.venue.city
+          = data.information.venue.name
+      %p.main-visual__venue-address= data.information.venue.address
+      = link_to 'Google Map', data.information.venue.map_url, target: '_blank', class: 'main-visual__map-link'
     .main-visual__registration
-      = link_to data.oedo08.information.registration.url, target: '_blank', class: 'main-visual__registration-button' do
+      = link_to data.information.registration.url, target: '_blank', class: 'main-visual__registration-button' do
         参加チケット購入

@@ -130,7 +130,7 @@ events:
 - color: red
   begin: '16:20'
   end: '17:00'
-  name: Keynote
+  name: きーのーと
   speakers:
   - id: sora_h
     name: Sorah Fukumori
