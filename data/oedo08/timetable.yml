@@ -13,18 +13,18 @@ events:
   end: '11:10'
   name: Ninja Talks 壱
   speakers:
+  - id: tagomoris
+    name: キレイなtagomoris
+    presentation_title: TBD
+    github_id: tagomoris
+    twitter_id: tagomoris
+    avatar_url: https://avatars0.githubusercontent.com/u/230654
   - id: coe401_
     name: Misaki Shioi
     presentation_title: TBD
     github_id: shioimm
     twitter_id: coe401_
     avatar_url: https://avatars0.githubusercontent.com/u/31817032
-  - id: tompng
-    name: Tomoya Ishida
-    presentation_title: TBD
-    github_id: tompng
-    twitter_id: tompng
-    avatar_url: https://avatars3.githubusercontent.com/u/1780201
   - id: wakou
     name: Wakou Aoyama
     presentation_title: TBD
@@ -61,12 +61,12 @@ events:
     github_id: makicamel
     twitter_id: makicamel
     avatar_url: https://avatars2.githubusercontent.com/u/30112374
-  - id: tagomoris
-    name: キレイなtagomoris
+  - id: tompng
+    name: Tomoya Ishida
     presentation_title: TBD
-    github_id: tagomoris
-    twitter_id: tagomoris
-    avatar_url: https://avatars0.githubusercontent.com/u/230654
+    github_id: tompng
+    twitter_id: tompng
+    avatar_url: https://avatars3.githubusercontent.com/u/1780201
   - id: kenn
     name: Kenn Ejima
     presentation_title: TBD
@@ -146,20 +146,20 @@ events:
     name: machida
     presentation_title: TBD
     github_id: machida
-    twitter_id: machida 
+    twitter_id: machida
     avatar_url: https://avatars1.githubusercontent.com/u/168265
-  - id: tagomoris
-    name: 真のtagomoris
-    presentation_title: TBD
-    github_id: tagomoris
-    twitter_id: tagomoris
-    avatar_url: https://avatars0.githubusercontent.com/u/230654
   - id: okuramasafumi
     name: Okura Masafumi
     presentation_title: TBD
     github_id: okuramasafumi
     twitter_id: okuramasafumi
     avatar_url: https://avatars3.githubusercontent.com/u/1012014
+  - id: tagomoris2
+    name: 真のtagomoris
+    presentation_title: TBD
+    github_id: tagomoris
+    twitter_id: tagomoris
+    avatar_url: https://avatars0.githubusercontent.com/u/230654
 - color: yellow
   begin: '16:30'
   end: '16:35'
