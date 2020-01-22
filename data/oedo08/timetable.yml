@@ -167,7 +167,7 @@ events:
 - color: red
   begin: '16:35'
   end: '17:25'
-  name: 招待講演
+  name: 基調講演
   speakers:
   - id: searls
     name: Justin Searls
