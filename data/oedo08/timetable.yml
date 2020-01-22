@@ -1,0 +1,181 @@
+---
+events:
+- color: red
+  begin: '09:30'
+  end: '10:00'
+  name: 受付
+- color: yellow
+  begin: '10:00'
+  end: '10:10'
+  name: ごあいさつ
+- color: green
+  begin: '10:00'
+  end: '11:10'
+  name: Ninja Talks 壱
+  speakers:
+  - id: coe401_
+    name: Misaki Shioi
+    presentation_title: TBD
+    github_id: shioimm
+    twitter_id: coe401_
+    avatar_url: https://avatars0.githubusercontent.com/u/31817032
+  - id: tompng
+    name: Tomoya Ishida
+    presentation_title: TBD
+    github_id: tompng
+    twitter_id: tompng
+    avatar_url: https://avatars3.githubusercontent.com/u/1780201
+  - id: wakou
+    name: Wakou Aoyama
+    presentation_title: TBD
+    github_id: ''
+    twitter_id: ''
+    avatar_url: /images/speakers/wakou.png
+- color: yellow
+  begin: '11:10'
+  end: '11:15'
+  name: 休憩
+- color: red
+  begin: '11:15'
+  end: '12:00'
+  name: 招待講演
+  speakers:
+  - id: Aaron
+    name: Aaron Patterson
+    presentation_title: TBD
+    github_id: tenderlove
+    twitter_id: tenderlove
+    avatar_url: https://avatars3.githubusercontent.com/u/3124
+- color: yellow
+  begin: '12:00'
+  end: '13:30'
+  name: お昼ごはん
+- color: green
+  begin: '13:30'
+  end: '14:30'
+  name: Ninja Talks 弐
+  speakers:
+  - id: makicamel
+    name: makicamel
+    presentation_title: TBD
+    github_id: makicamel
+    twitter_id: makicamel
+    avatar_url: https://avatars2.githubusercontent.com/u/30112374
+  - id: tagomoris
+    name: キレイなtagomoris
+    presentation_title: TBD
+    github_id: tagomoris
+    twitter_id: tagomoris
+    avatar_url: https://avatars0.githubusercontent.com/u/230654
+  - id: kenn
+    name: Kenn Ejima
+    presentation_title: TBD
+    github_id: kenn
+    twitter_id: kenn
+    avatar_url: https://avatars0.githubusercontent.com/u/10350
+- color: yellow
+  begin: '14:30'
+  end: '14:35'
+  name: 休憩
+- color: green
+  begin: '14:35'
+  end: '15:15'
+  name: Girls(仮)
+  speakers:
+  - id: yotii23
+    name: Yuki Torii
+    github_id: yakitorii
+    twitter_id: yotii23
+    avatar_url: https://avatars0.githubusercontent.com/u/545535
+  - id: emorima
+    name: Mayumi Emori
+    github_id: emorima
+    twitter_id: emorima
+    avatar_url: https://avatars2.githubusercontent.com/u/458273
+  - id: youchan
+    name: よう
+    github_id: youchan
+    twitter_id: youchan
+    avatar_url: https://avatars0.githubusercontent.com/u/222183
+  - id: attsumi
+    name: Yuka Atsumi
+    github_id: attsumi
+    twitter_id: atttsumi
+    avatar_url: https://avatars3.githubusercontent.com/u/6082554
+  - id: sinamon129
+    name: しなもん
+    github_id: sinamon129
+    twitter_id: sinamon129
+    avatar_url: https://avatars2.githubusercontent.com/u/2012540
+  - id: shokola
+    name: shokola
+    github_id: shokola
+    twitter_id: shokolateday
+    avatar_url: https://avatars0.githubusercontent.com/u/4434110
+  - id: tararico
+    name: Emmy Naito
+    github_id: tararico
+    twitter_id: tararico_co
+    avatar_url: https://avatars1.githubusercontent.com/u/19562782
+  - id: neko
+    name: Keiko Kaneko
+    github_id: neko314
+    twitter_id: neko314_
+    avatar_url: https://avatars2.githubusercontent.com/u/29836309
+  - id: rlho
+    name: Riho Takagi
+    github_id: rlho
+    twitter_id: rllllho
+    avatar_url: https://avatars0.githubusercontent.com/u/5990045
+  - id: lime1024
+    name: Ai Kiriyama
+    github_id: lime1024
+    twitter_id: lime1024
+    avatar_url: https://avatars3.githubusercontent.com/u/39685884
+  - id: shikibum
+    name: Rina Mito
+    github_id: shikibum
+    twitter_id: shikibum1
+    avatar_url: https://avatars1.githubusercontent.com/u/37039268
+- color: green
+  begin: '15:30'
+  end: '16:30'
+  name: Ninja Talks 参
+  speakers:
+  - id: machida
+    name: machida
+    presentation_title: TBD
+    github_id: machida
+    twitter_id: machida 
+    avatar_url: https://avatars1.githubusercontent.com/u/168265
+  - id: tagomoris
+    name: 真のtagomoris
+    presentation_title: TBD
+    github_id: tagomoris
+    twitter_id: tagomoris
+    avatar_url: https://avatars0.githubusercontent.com/u/230654
+  - id: okuramasafumi
+    name: Okura Masafumi
+    presentation_title: TBD
+    github_id: okuramasafumi
+    twitter_id: okuramasafumi
+    avatar_url: https://avatars3.githubusercontent.com/u/1012014
+- color: yellow
+  begin: '16:30'
+  end: '16:35'
+  name: 休憩
+- color: red
+  begin: '16:35'
+  end: '17:25'
+  name: 招待講演
+  speakers:
+  - id: searls
+    name: Justin Searls
+    presentation_title: TBD
+    github_id: searls
+    twitter_id: searls
+    avatar_url: https://avatars3.githubusercontent.com/u/79303
+- color: yellow
+  begin: '17:25'
+  end: '17:30'
+  name: おわり
