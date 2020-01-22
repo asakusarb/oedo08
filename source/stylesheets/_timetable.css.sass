@@ -1,0 +1,165 @@
+// .timetable
+
+.timetable
+
+.timetable__table
+  display: flex
+  list-style: none
+  padding: 0
+  position: relative
+  z-index: 1
+  flex-wrap: wrap
+  background-color: black
+
+.timetable__avatar
+  $size: 120px
+  width: $size
+  height: $size
+
+.timetable__event
+  border: 10px black solid
+  border-right: none
+  height: 270px
+  position: relative
+
+  &.is-red
+    background-color: $oedo-red
+
+  &.is-yellow
+    background-color: $oedo-yellow
+    border-right: 50px black solid
+
+  &.is-green
+    background-color: $oedo-green
+
+  &:first-child
+    border-left: 100px black solid
+    &:after
+      content: ""
+      $size: 75px
+      width: $size
+      height: $size
+      background-image: image_url('icon-kamon-gold.svg')
+      background-size: $size
+      position: absolute
+      top: 100px
+      left: -88px
+
+  &:last-child
+    border-right: 100px black solid
+    &:after
+      content: ""
+      $size: 75px
+      width: $size
+      height: $size
+      background-image: image_url('icon-kamon-gold.svg')
+      background-size: $size
+      position: absolute
+      top: 100px
+      right: -88px
+
+.timetable__time
+  +num-font
+  font-size: 14px
+  padding: 10px 3px
+  border-bottom: 5px black solid
+  height: 40px
+  box-sizing: border-box
+
+.timetable__content
+  display: flex
+  min-width: 70px
+  box-sizing: border-box
+
+.timetable__name
+  height: 230px
+  min-width: 70px
+
+.timetable__name-text
+  +kanteiryu
+  display: inline-block
+  writing-mode: vertical-rl
+  vertical-align: middle
+  text-align: center
+  font-size: 22px
+  height: 100%
+  padding: 5px 25px 5px 20px
+  box-sizing: border-box
+  min-width: 70px
+  line-height: 1
+
+  &.is-long
+    font-size: 16px
+
+.timetable__speakers
+  list-style: none
+  padding: 0
+  display: flex
+
+.timetable__speaker
+  border-left: 5px black solid
+  box-sizing: border-box
+  width: 164px
+
+.timetable__speaker-header
+  display: flex
+  border-bottom: 3px black solid
+
+.timetable__speaker-name
+  background-color: white
+  border: 3px black solid
+  border-bottom: 0
+  border-top: 0
+  border-right: 0
+  box-sizing: border-box
+  height: 120px
+  width: 42px
+  position: relative
+  padding-left: 9px
+
+  &:after
+    content: ""
+    position: absolute
+    display: block
+    top: 2px
+    left: 2px
+    height: 114px
+    width: 30px
+    border: 1px black solid
+
+.timetable__speaker-name-text
+  +kanteiryu
+  display: inline-block
+  writing-mode: vertical-rl
+  vertical-align: middle
+  text-align: center
+  font-size: 18px
+  box-sizing: border-box
+  height: 110px
+  line-height: 1
+  padding-top: 8px
+  position: relative
+
+  &.is-long
+    font-size: 11px
+    left: 5px
+
+.timetable__speaker-content
+  padding: 5px
+
+.timetable__speaker-id
+  +num-font
+  font-size: 20px
+  letter-spacing: 1px
+  margin-bottom: 7px
+
+  a
+    transition-duration: 0.3s
+    color: rgba(0, 0, 0, 0.5)
+    text-decoration: none
+    &:hover
+      color: black
+
+.timetable__presentation-title
+  font-weight: bold
+  font-size: 14px
