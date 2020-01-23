@@ -17,7 +17,7 @@
                   .timetable__speaker-header
                     = image_tag(speaker.avatar_url, class: 'timetable__avatar')
                     .timetable__speaker-name
-                      %span.timetable__speaker-name-text{class: "#{'is-long' if speaker.name.length > 6}"}= speaker.name
+                      %span.timetable__speaker-name-text{class: "#{'is-long' if speaker.name.length > 7}"}= speaker.name
                   .timetable__speaker-content
                     .timetable__speaker-id
                       - if speaker.twitter_id.present?
