@@ -14,7 +14,7 @@ events:
   name: Ninja Talks 壱
   speakers:
   - id: tagomoris
-    name: キレイなtagomoris
+    name: キレイなタゴモリス
     presentation_title: TBD
     github_id: tagomoris
     twitter_id: tagomoris
@@ -155,7 +155,7 @@ events:
     twitter_id: okuramasafumi
     avatar_url: https://avatars3.githubusercontent.com/u/1012014
   - id: tagomoris2
-    name: 真のtagomoris
+    name: 真・タゴモリス
     presentation_title: TBD
     github_id: tagomoris
     twitter_id: tagomoris
