@@ -19,10 +19,15 @@
   width: $size
   height: $size
 
+  .are-girls &
+    $size: 90px
+    width: $size
+    height: $size
+
 .timetable__event
   border: 10px black solid
   border-right: none
-  height: 270px
+  height: 310px
   box-sizing: border-box
   position: relative
 
@@ -31,7 +36,6 @@
 
   &.is-yellow
     background-color: $oedo-yellow
-    border-right: 30px black solid
 
   &.is-green
     background-color: $oedo-green
@@ -101,7 +105,7 @@
     max-width: auto
 
 .timetable__name
-  height: 210px
+  height: 250px
   min-width: 70px
 
   +mq
@@ -135,13 +139,39 @@
   padding: 0
   display: flex
 
+  &.are-girls
+    max-width: 792px
+    flex-wrap: wrap
+
   +mq
     flex-direction: column
+
+    .are-girls &
+      flex-direction: row
 
 .timetable__speaker
   border-left: 5px black solid
   box-sizing: border-box
   width: 152px
+
+  .are-girls &
+    width: 132px
+    height: 125px
+
+    &:nth-child(n + 7)
+      border-top: 5px black solid
+
+    &:last-child
+      width: 137px
+      border-right: 5px black solid
+
+    +mq
+      width: 100%
+      height: auto
+
+      &:last-child
+        width: 100%
+        border-right: 0
 
   +mq
     width: 100%
@@ -169,6 +199,9 @@
   position: relative
   padding-left: 9px
 
+  .are-girls &
+    height: 90px
+
   &:after
     content: ""
     position: absolute
@@ -178,6 +211,9 @@
     height: 104px
     width: 28px
     border: 1px black solid
+
+    .are-girls &
+      height: 84px
 
 .timetable__speaker-name-text
   +kanteiryu
@@ -191,6 +227,10 @@
   line-height: 1
   padding-top: 8px
   position: relative
+
+  .are-girls &
+    font-size: 14px
+    height: 80px
 
   &.is-long
     font-size: 10px
@@ -206,6 +246,10 @@
   letter-spacing: 1px
   margin-top: 3px
   margin-bottom: 7px
+
+  .are-girls &
+    margin-top: 0
+    font-size: 14px
 
   a
     transition-duration: 0.3s

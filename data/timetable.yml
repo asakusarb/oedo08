@@ -51,7 +51,7 @@ events:
   end: '13:15'
   name: お昼ごはん
 - color: red
-  flug: girls
+  flag: girls
   begin: '13:15'
   end: '13:55'
   name: Girls(仮)

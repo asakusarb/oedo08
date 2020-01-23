@@ -11,13 +11,13 @@
           .timetable__name
             %span.timetable__name-text= event.name
           - if event.speakers.present?
-            %ul.timetable__speakers
-              - event.speakers.each do |speaker|
+            %ul{ class: "timetable__speakers #{'are-girls' if event.flag == 'girls'}"}
+              - event.speakers.each_with_index do |speaker, i|
                 %li.timetable__speaker
                   .timetable__speaker-header
                     = image_tag(speaker.avatar_url, class: 'timetable__avatar')
                     .timetable__speaker-name
-                      %span.timetable__speaker-name-text{class: "#{'is-long' if speaker.name.length > 8}"}= speaker.name
+                      %span.timetable__speaker-name-text{class: "#{'is-long' if speaker.name.length > 6}"}= speaker.name
                   .timetable__speaker-content
                     .timetable__speaker-id
                       =link_to "@#{speaker.id}", "https://twitter.com/#{speaker.twitter_id}", target: '_blank'
