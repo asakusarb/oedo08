@@ -146,7 +146,7 @@ events:
   begin: '15:15'
   end: '15:55'
   name: RubyKaigi 2020タイムテーブル徹底解説
-  speakers: RubyKaigi Organizers
+  speakers: 'RubyKaigi Organizers'
 - color: yellow
   begin: '15:55'
   end: '16:00'
