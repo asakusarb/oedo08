@@ -142,11 +142,17 @@ events:
   begin: '15:00'
   end: '15:15'
   name: 休憩
-- color: green
+- color: red
   begin: '15:15'
   end: '15:55'
-  name: RubyKaigi 2020タイムテーブル徹底解説
-  speakers: 'RubyKaigi Organizers'
+  name: 特別企画
+  speakers:
+  - id: rubykaigi
+    name: 'るびーかいぎ・おーがないざーず'
+    presentation_title: RubyKaigi 2020タイムテーブル徹底解説
+    github_id: ruby-no-kai
+    twitter_id: rubykaigi
+    avatar_url: https://rubykaigi.org/2020/images/castle.svg
 - color: yellow
   begin: '15:55'
   end: '16:00'
