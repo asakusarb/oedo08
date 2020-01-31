@@ -20,13 +20,13 @@ events:
     twitter_id: tagomoris
     avatar_url: https://avatars0.githubusercontent.com/u/230654
   - id: coe401_
-    name: 塩井 美咲
+    name: 塩井美咲
     presentation_title: TBD
     github_id: shioimm
     twitter_id: coe401_
     avatar_url: https://avatars0.githubusercontent.com/u/31817032
   - id: wakou
-    name: 青山 和光
+    name: 青山和光
     presentation_title: 昔話(-1999)
     github_id: ''
     twitter_id: ''
@@ -40,8 +40,8 @@ events:
   end: '11:45'
   name: 招待講演
   speakers:
-  - id: Aaron
-    name: Aaron Patterson
+  - id: tenderlove
+    name: あーろん・ぱたーそん
     presentation_title: TBD
     github_id: tenderlove
     twitter_id: tenderlove
@@ -50,13 +50,14 @@ events:
   begin: '11:45'
   end: '13:15'
   name: お昼ごはん
-- color: green
+- color: red
+  flag: girls
   begin: '13:15'
   end: '13:55'
-  name: Girls(仮)
+  name: がーるず（仮）
   speakers:
   - id: yotii23
-    name: Yuki Torii
+    name: 鳥井雪
     github_id: yakitorii
     twitter_id: yotii23
     avatar_url: https://avatars0.githubusercontent.com/u/545535
@@ -66,7 +67,7 @@ events:
     twitter_id: emorima
     avatar_url: https://avatars2.githubusercontent.com/u/458273
   - id: youchan
-    name: よう
+    name: 大崎瑶
     github_id: youchan
     twitter_id: youchan
     avatar_url: https://avatars0.githubusercontent.com/u/222183
@@ -76,7 +77,7 @@ events:
     twitter_id: atttsumi
     avatar_url: https://avatars3.githubusercontent.com/u/6082554
   - id: sinamon129
-    name: しなもん
+    name: 片山潮美
     github_id: sinamon129
     twitter_id: sinamon129
     avatar_url: https://avatars2.githubusercontent.com/u/2012540
@@ -90,7 +91,7 @@ events:
     github_id: tararico
     twitter_id: tararico_co
     avatar_url: https://avatars1.githubusercontent.com/u/19562782
-  - id: neko
+  - id: neko314
     name: 金子慶子
     github_id: neko314
     twitter_id: neko314_
@@ -120,7 +121,7 @@ events:
   name: Ninja Talks 弐
   speakers:
   - id: makicamel
-    name: makicamel
+    name: 河原万季
     presentation_title: TBD
     github_id: makicamel
     twitter_id: makicamel
@@ -132,7 +133,7 @@ events:
     twitter_id: tompng
     avatar_url: https://avatars3.githubusercontent.com/u/1780201
   - id: kenn
-    name: Kenn Ejima
+    name: 江島健太郎
     presentation_title: TBD
     github_id: kenn
     twitter_id: kenn
@@ -156,7 +157,7 @@ events:
   name: Ninja Talks 参
   speakers:
   - id: machida
-    name: machida
+    name: 町田哲平
     presentation_title: TBD
     github_id: machida
     twitter_id: machida
@@ -183,7 +184,7 @@ events:
   name: 基調講演
   speakers:
   - id: searls
-    name: Justin Searls
+    name: じゃすてぃん・さーるず
     presentation_title: TBD
     github_id: searls
     twitter_id: searls

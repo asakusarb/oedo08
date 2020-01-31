@@ -23,6 +23,8 @@
 =kanteiryu
   font-family: $font-kanteiryu
 
+// parts
+
 =oedo-button
   box-sizing: border-box
   $width: 260px
@@ -62,3 +64,24 @@
 
     &:after
       border-color: $oedo-red
+
+=map-link
+  +num-font
+  display: inline-block
+  text-decoration: none
+  font-size: 20px
+  letter-spacing: 1px
+  height: 30px
+  padding-left: 20px
+  background-image: image_url('icon-map.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: 16px
+
+=cloud
+  $width: 92px
+  $height: 42px
+  width: $width
+  height: $height
+  background-image: image_url('illust-cloud.svg')
+  background-size: $width

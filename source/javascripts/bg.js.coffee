@@ -2,12 +2,12 @@ $ ->
   initBg= ->
     windowHeight = $(window).height()
     windowWidth = $(window).width()
-    $('.bg').css 'min-height', windowHeight + 'px'
+    timetableY = $('.timetable__table').offset().top #タイムテーブルのY座標
+    $('.bg').css 'height', (timetableY + 250) + 'px'
 
     cloudWidth = 92 #CSS側で指定
     cloudHeight = 42 #CSS側で指定
     logoHeight = windowHeight - 430
-
 
     minX = cloudWidth + 50
     maxX = windowWidth / 2 - logoHeight / 2 - cloudWidth - 50
@@ -36,7 +36,7 @@ $ ->
 
   initLogo= ->
     windowHeight = $(window).height()
-    logoHeight = windowHeight - 520
+    logoHeight = windowHeight - 480
     if logoHeight > 300
       $('.main-visual__logo-image').css({'height': logoHeight;})
     else

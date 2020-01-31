@@ -1,5 +1,14 @@
 .footer
-  .footer__organizer
-    %span.footer__organizer-title 主催:
-    %span.footer__organizer-name= link_to 'Asakusa.rb', 'https://asakusarb.esa.io/', target: '_blank'
-  =link_to '@asakusarb', 'https://twitter.com/asakusarb', target: '_blank', class: 'footer__twitter'
+  .footer__organizer-info
+    .footer__organizer
+      %span.footer__organizer-title 主催:
+      %span.footer__organizer-name= link_to 'Asakusa.rb', 'https://asakusarb.esa.io/', target: '_blank'
+    .footer__twitter
+      = link_to '@asakusarb', 'https://twitter.com/asakusarb', target: '_blank', class: 'footer__twitter-link'
+  .footer__spacer
+  .footer__design-sponsor
+    .footer__design-sponsor-label DESIGN SPONSOR
+    .footer__design-sponsor-logo
+      = link_to image_tag('logo-esa.svg', alt: 'esa', class: 'footer__design-sponsor-logo'), 'https://esa.io', target: '_blank'
+    .footer__tori
+      = link_to image_tag('illust-tori.svg', class: 'footer__tori-image'), 'https://esa.io', target: '_blank', class: 'footer__tori-link'
