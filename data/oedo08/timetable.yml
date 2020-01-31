@@ -9,7 +9,7 @@ events:
   end: '10:10'
   name: ごあいさつ
 - color: green
-  begin: '10:00'
+  begin: '10:10'
   end: '11:10'
   name: Ninja Talks 壱
   speakers:
@@ -37,7 +37,7 @@ events:
   name: 休憩
 - color: red
   begin: '11:15'
-  end: '12:00'
+  end: '11:45'
   name: 招待講演
   speakers:
   - id: Aaron
@@ -47,39 +47,12 @@ events:
     twitter_id: tenderlove
     avatar_url: https://avatars3.githubusercontent.com/u/3124
 - color: yellow
-  begin: '12:00'
-  end: '13:30'
+  begin: '11:45'
+  end: '13:15'
   name: お昼ごはん
 - color: green
-  begin: '13:30'
-  end: '14:30'
-  name: Ninja Talks 弐
-  speakers:
-  - id: makicamel
-    name: makicamel
-    presentation_title: TBD
-    github_id: makicamel
-    twitter_id: makicamel
-    avatar_url: https://avatars2.githubusercontent.com/u/30112374
-  - id: tompng
-    name: ぺん
-    presentation_title: TBD
-    github_id: tompng
-    twitter_id: tompng
-    avatar_url: https://avatars3.githubusercontent.com/u/1780201
-  - id: kenn
-    name: Kenn Ejima
-    presentation_title: TBD
-    github_id: kenn
-    twitter_id: kenn
-    avatar_url: https://avatars0.githubusercontent.com/u/10350
-- color: yellow
-  begin: '14:30'
-  end: '14:35'
-  name: 休憩
-- color: green
-  begin: '14:35'
-  end: '15:15'
+  begin: '13:15'
+  end: '13:55'
   name: Girls(仮)
   speakers:
   - id: yotii23
@@ -137,9 +110,49 @@ events:
     github_id: shikibum
     twitter_id: shikibum1
     avatar_url: https://avatars1.githubusercontent.com/u/37039268
+- color: yellow
+  begin: '13:55'
+  end: '14:00'
+  name: 休憩
 - color: green
-  begin: '15:30'
-  end: '16:30'
+  begin: '14:00'
+  end: '15:00'
+  name: Ninja Talks 弐
+  speakers:
+  - id: makicamel
+    name: makicamel
+    presentation_title: TBD
+    github_id: makicamel
+    twitter_id: makicamel
+    avatar_url: https://avatars2.githubusercontent.com/u/30112374
+  - id: tompng
+    name: ぺん
+    presentation_title: TBD
+    github_id: tompng
+    twitter_id: tompng
+    avatar_url: https://avatars3.githubusercontent.com/u/1780201
+  - id: kenn
+    name: Kenn Ejima
+    presentation_title: TBD
+    github_id: kenn
+    twitter_id: kenn
+    avatar_url: https://avatars0.githubusercontent.com/u/10350
+- color: yellow
+  begin: '15:00'
+  end: '15:15'
+  name: 休憩
+- color: green
+  begin: '15:15'
+  end: '15:55'
+  name: RubyKaigi 2020タイムテーブル徹底解説
+  speakers: RubyKaigi Organizers
+- color: yellow
+  begin: '15:55'
+  end: '16:00'
+  name: 休憩
+- color: green
+  begin: '16:00'
+  end: '17:00'
   name: Ninja Talks 参
   speakers:
   - id: machida
@@ -161,12 +174,12 @@ events:
     twitter_id: tagomoris
     avatar_url: https://avatars0.githubusercontent.com/u/230654
 - color: yellow
-  begin: '16:30'
-  end: '16:35'
+  begin: '17:00'
+  end: '17:05'
   name: 休憩
 - color: red
-  begin: '16:35'
-  end: '17:25'
+  begin: '17:05'
+  end: '17:55'
   name: 基調講演
   speakers:
   - id: searls
@@ -176,6 +189,6 @@ events:
     twitter_id: searls
     avatar_url: https://avatars3.githubusercontent.com/u/79303
 - color: yellow
-  begin: '17:25'
-  end: '17:30'
-  name: おわり
+  begin: '17:55'
+  end: '18:00'
+  name: おしまい
