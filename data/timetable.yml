@@ -148,7 +148,7 @@ events:
   name: 特別企画
   speakers:
   - id: rubykaigi
-    name: 'るびーかいぎ・おーがないざーず'
+    name: 'るびーかいぎ・<br>おーがないざーず'
     presentation_title: RubyKaigi 2020タイムテーブル徹底解説
     github_id: ruby-no-kai
     twitter_id: rubykaigi
