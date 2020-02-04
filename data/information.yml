@@ -13,7 +13,8 @@
   party:
     venue: ブラジル料理　シュハスカリア　キ・ボン！
     start_at: '18:30'
-    url: https://que-bom.com/
+    venue_url: https://que-bom.com/
     address: 東京都台東区西浅草2-15-13 日光社ビル 地下1階
     map_url: https://www.google.com/maps/place/Que+bom%EF%BC%81/@35.712915,139.791233,16z/data=!4m5!3m4!1s0x0:0x9458a342d1a40b0!8m2!3d35.7129148!4d139.7912334?hl=ja
     fee: 5,656
+    registration_url: https://asakusarb.doorkeeper.jp/events/103536
