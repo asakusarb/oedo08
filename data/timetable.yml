@@ -41,7 +41,7 @@ events:
   name: 招待講演
   speakers:
   - id: tenderlove
-    name: あーろん・ぱたーそん
+    name: あーろ<span class="kerning">ん・</span>ぱたーそん
     presentation_title: TBD
     github_id: tenderlove
     twitter_id: tenderlove
@@ -175,7 +175,7 @@ events:
     twitter_id: okuramasafumi
     avatar_url: https://avatars3.githubusercontent.com/u/1012014
   - id: tagomoris2
-    name: 真・タゴモリス
+    name: <span class="kerning">真・</span>タゴモリス
     presentation_title: Joining Startups A to Z
     github_id: tagomoris
     twitter_id: tagomoris
@@ -190,7 +190,7 @@ events:
   name: 基調講演
   speakers:
   - id: searls
-    name: じゃすてぃん・さーるず
+    name: じゃす<span class="kerning">てぃん・</span>さーるず
     presentation_title: TBD
     github_id: searls
     twitter_id: searls
