@@ -15,7 +15,7 @@ events:
   speakers:
   - id: tagomoris
     name: キレイなタゴモリス
-    presentation_title: TBD
+    presentation_title: Arm, Treasure Data, Kotlin and more
     github_id: tagomoris
     twitter_id: tagomoris
     avatar_url: https://avatars0.githubusercontent.com/u/230654
@@ -176,7 +176,7 @@ events:
     avatar_url: https://avatars3.githubusercontent.com/u/1012014
   - id: tagomoris2
     name: 真・タゴモリス
-    presentation_title: TBD
+    presentation_title: Joining Startups A to Z
     github_id: tagomoris
     twitter_id: tagomoris
     avatar_url: https://avatars0.githubusercontent.com/u/230654
