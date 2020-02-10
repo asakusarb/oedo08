@@ -122,7 +122,7 @@ events:
   speakers:
   - id: makicamel
     name: 河原万季
-    presentation_title: TBD
+    presentation_title: 数学の勉強のために Ruby の構文木と遊んでいる話
     github_id: makicamel
     twitter_id: makicamel
     avatar_url: https://avatars2.githubusercontent.com/u/30112374
