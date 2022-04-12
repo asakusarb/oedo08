@@ -116,7 +116,7 @@ GEM
       sprockets (~> 3)
     mini_portile2 (2.8.0)
     minitest (5.13.0)
-    nokogiri (1.13.3)
+    nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     padrino-helpers (0.13.3.4)
